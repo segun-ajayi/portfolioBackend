@@ -1,0 +1,11 @@
+@extends('layouts.master')
+@section('css')
+@endsection
+@section('page')
+    About
+@endsection
+@section('content')
+    @livewire('about.index')
+@endsection
+@section('js')
+@endsection

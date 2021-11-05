@@ -1,0 +1,11 @@
+@extends('layouts.master')
+@section('css')
+@endsection
+@section('page')
+    Navbar
+@endsection
+@section('content')
+    @livewire('navbar.index')
+@endsection
+@section('js')
+@endsection
