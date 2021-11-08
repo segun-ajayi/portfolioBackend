@@ -53,6 +53,10 @@ Route::middleware(['auth'])->group(function() {
     Route::get('/social', function() {
         return view('social.index');
     })->name('social');
+
+    Route::get('/messages', function() {
+        return view('messages.index');
+    })->name('messages');
 });
 
 

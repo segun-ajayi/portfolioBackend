@@ -34,6 +34,9 @@
                 <a class="side-menu__item" href="{{ route('profile.show') }}"><i class="fa fa-user-circle-o"></i><span class="side-menu__label">My Profile</span></a>
             </li>
             <li class="slide">
+                <a class="side-menu__item" href="{{ route('messages') }}"><i class="fa fa-envelope-o"></i><span class="side-menu__label">Messages</span></a>
+            </li>
+            <li class="slide">
                 <a class="side-menu__item" href="{{ route('introduction') }}"><i class="fa fa-handshake-o"></i><span class="side-menu__label">Introduction</span></a>
             </li>
             <li class="slide">
